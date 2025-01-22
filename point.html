@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <input type="text" name="taille" id="taille">
+    <input type="text" name="age" id="age"><br>
+    <input type="checkbox" id="mince" name="type" value="mince" onclick="selectOne(this)">
+    <label for="mince">Mince</label>
+    <input type="checkbox" id="large" name="type" value="moyen" onclick="selectOne(this)">
+    <label for="large">Large</label>
+    <input type="checkbox" id="moyen" name="type" value="large" onclick="selectOne(this)">
+    <label for="moyen">Moyen</label>
+    <button id="calculer">Calculer</button>
+    <div class="result"></div>
+
+    <script src="point.js"></script>
+</body>
+</html>
